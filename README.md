@@ -4,7 +4,7 @@ My public website
 # Site Plan
 Home page
 |
--- Work History
--- Education
--- Other Projects
+Work History
+Education
+Other Projects
 
