@@ -5,6 +5,9 @@ My public website
 Home page
 |
 Work History
+
 Education
+
 Other Projects
 
+Blog
