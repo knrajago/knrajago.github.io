@@ -9,13 +9,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/site.css" />
 	<title>Koushik Rajagopalan</title>
-	<link rel="icon" href="images/Koushik-icon.jpg" type="image/x-icon">.
   </head>
   <body>
     <div class="container">
       <div class="row">
         <div id="profile-div" class="col-md-2 ">
-          <img src="images/Koushik.jpg" class="responsive"/>
+          <a href="index.html"><img src="images/Koushik.jpg" class="responsive"/></a>
         </div>
         <div class="col-md-10 vertically-centered horizontally-centered ">
           <h1>Koushik N Rajagopalan</h1>
@@ -41,7 +40,7 @@
 	  <!-- Caption -->
 	  <div class="row">
 	    <div class="col-md-2">
-		  <span>Software / Data/ Prototyping / World</span>
+		  <span>Software / Data/ Prototyping</span>
 		</div>
 		<div class="col-md-10">
 		
@@ -51,14 +50,45 @@
 	<!-- Main content -->
 	<div id="main-content" class="row">
 	  <div class="col-md-12">
-	    <ul class="full-page-points">
-		  <li>I am a Software Engineer.</li>
-		  <li>I work on architecture definition, and develop reusable components.</li>
-		  <li>I am learning Data Science.</li>
-		  <li>In this site, I aim to consolidate different things that I do.</li>
+	    <ul class="long-list-of-points">
+		  <li>
+		  I currently work at Schneider National Inc.
+		    <ul class="">
+			  <li>I make <a href="" onclick="return toggleArchDecisions()">architectural decisions</a> and develop reusable components.</li>
+			  <li>I am polyglot. In my work, I use python, shell scripting, Java, JavaScript, .</li>
+			  <li id="arch-decision" style="display: none;">Architectural Decisions
+			    <ul>
+				  <li>For a given task, pick the right set of tools, environments, number of servers that will be needed, and so on	 .</li>
+				  <li>Develop or customize the tools for various reasons.
+				    <ol>
+					  <li>Define how the tool would interact with other tools that we already use</li>
+					  <li>Define the Build and Deployment process for the project.</li>
+					  <li>Make Schneider-specific customizations to the look and feel of UI.</li>
+					  <li>Tools that would help other teams with migration (if needed).</li>
+					  <li>Assist in Performance Analysis</li>
+					</ol>
+				  
+				  </li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		  <li>I used to work at Epic Systems Corporation.
+		    <ul>I developed Inpatient applications for Windows Mobile Devices that used Windows 6.5.x version of Windows.</ul>
+			<ul>I developed Inpatient applications for Medication Administration.</ul>
+			<ul>I primarily worked on .Net framework, Mumps-language, Visual Basic.</ul>
+		  </li>
+		  <li>I started my career at Tata Consultancy Services.</li>
 		</ul>
 	  </div>
 	</div>
+	<script>
+	  function toggleArchDecisions() {
+	    var arch_ul = document.getElementById("arch-decision");
+		arch_ul.style.display = "";
+		return false;
+	  }
+	</script>
     <!--script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

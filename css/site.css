@@ -1,0 +1,38 @@
+.vertically-centered {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.horizontally-centered {
+  text-align: center;
+}
+
+.link-div:hover{
+  background-color: #ff6418;
+  color: white;
+  cursor: pointer;
+}
+
+.link-div:hover a{
+  color: white;
+}
+
+.block-border {
+  background-color: #000;
+}
+
+.full-page-points {
+  font-size: 200%;
+  display: inline-block;
+  line-height: 150%;
+}
+
+#main-content {
+	padding: 20px 10%;
+}
+
+.long-list-of-points {
+	font-size:125%;
+	display: inline-block;
+	line-height: 100%;
+}
+
